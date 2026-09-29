@@ -1,6 +1,5 @@
 body {
     font-family: 'Instrument Sans', sans-serif;
-    font-family: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +11,19 @@ body {
 h1 {
     color: #333333;
     font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 400;           /* Fixed: changed from font-family: 700 */
+    text-transform: uppercase;  /* Converts 'Tally' to 'TALLY' to match Figma */
     letter-spacing: 0.66em;
+    margin-right: -0.66em;      /* Offsets trailing space added by letter-spacing for precise centering */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    color: #666666;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.45em;
+    margin-right: -0.56em; /* Offsets trailing letter-spacing */
+    margin-top: 0;
 }
