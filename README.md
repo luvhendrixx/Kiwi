@@ -1,4 +1,4 @@
-![Alt text](../Mouse/Frontend/Assets/mouse.svg)
+![Alt text](/Frontend/Assets/mouse.svg)
 
 ### Mouse
 
