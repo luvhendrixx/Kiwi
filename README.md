@@ -1,6 +1,8 @@
-### ♠️ Kiwi
+![Alt text](../Mouse/Frontend/Assets/mouse.svg)
 
-Kiwi is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
+### Mouse
+
+Mouse is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
 
 Based off of personal preferences in today’s productivity tools, Tally hopes to bridge that gap in the most productive and effective way possible.
 
