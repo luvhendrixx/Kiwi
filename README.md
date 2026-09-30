@@ -1,6 +1,6 @@
-### ♠️ Tally
+### ♠️ Kiwi
 
-Tally is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
+Kiwi is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
 
 Based off of personal preferences in today’s productivity tools, Tally hopes to bridge that gap in the most productive and effective way possible.
 
