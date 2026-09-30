@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Frontend/Assets/mouse.svg" alt="Mouse logo" width="120" />
+  <img src="Frontend/Assets/mouse.svg" alt="Mouse logo" width="200" />
 </p>
 
 ### Mouse
