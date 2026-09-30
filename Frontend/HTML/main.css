@@ -1,0 +1,90 @@
+/* Reset default margins, paddings, and box calculations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #ffffff;
+    min-height: 100vh;
+    
+    /* Center the main container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    /* Distance from top of browser window */
+    padding-top: 58px;
+}
+
+/* Central Card Layout */
+.brand-container {
+    position: relative;
+    width: 100%;
+    max-width: 520px; /* Constrains content width to match design card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mouse logo hanging off top-left relative to brand-container */
+.logo {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 110px;
+    height: auto;
+}
+
+/* Stacked Uppercase Heading */
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 60px; /* Space between HEY THERE and Your Dues */
+}
+
+/* Prevent emoji from inheriting letter-spacing stretch */
+.wave {
+    display: inline-block;
+    letter-spacing: normal;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
+
+/* "Your Dues" bar with "+" button */
+.dues-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.dues-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.add-icon {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* Clean Divider Line */
+.line {
+    width: 100%;
+    border: none;
+    border-top: 1.5px solid #000000;
+}
