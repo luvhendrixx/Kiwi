@@ -1,5 +1,6 @@
-![Alt text](/Frontend/Assets/mouse.svg)
-
+<p align="center">
+  <img src="Frontend/Assets/mouse.svg" alt="Mouse logo" width="120" style="background-color: white; border-radius: 12px; padding: 12px;" />
+</p>
 ### Mouse
 
 Mouse is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
